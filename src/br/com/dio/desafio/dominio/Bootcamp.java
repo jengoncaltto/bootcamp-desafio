@@ -38,6 +38,22 @@ public class Bootcamp {
         return conteudos;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setDevsInscritos(Set<Dev> devsInscritos) {
+        this.devsInscritos = devsInscritos;
+    }
+
+    public void setConteudos(Set<Conteudo> conteudos) {
+        this.conteudos = conteudos;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
